@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+:root {
+  --main-color: rgba(4, 26, 52, 1);
+  --second-color: rgba(39, 174, 243, 1);
+  --white-color: rgba(255, 255, 255, 1);
+  --font-regular: 400;
+  --font-bold: 600;
+  --font-black: 700;
+}
+
+*,
+*::after,
+*::before {
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: var(--font-regular);
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  min-height: 100vh;
+  background: radial-gradient(ellipse, rgba(39, 174, 243, 0.5), rgba(4, 26, 52, 1) 92%),
+    url(https://images.pexels.com/photos/681347/pexels-photo-681347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: rgba(4, 26, 52, 0);
+  padding-top: 2rem;
+}
+
+.navbar .navbar-brand {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .navbar-brand:hover {
+  margin-left: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .navbar-brand img {
+  height: 4rem;
+  max-height: 4rem;
+}
+
+.navbar .navbar-end .navbar-item,
+.navbar .navbar-end .navbar-link {
+  color: var(--white-color);
+  font-weight: var(--font-regular);
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  line-height: 1rem;
+  border: 2px solid transparent;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .navbar-end,
+.navbar .navbar-menu,
+.navbar .navbar-start {
+  align-items: center;
+}
+
+.navbar .navbar-end .navbar-link.is-active,
+.navbar .navbar-end .navbar-link:focus,
+.navbar .navbar-end .navbar-link:focus-within,
+.navbar .navbar-end .navbar-link:hover,
+.navbar .navbar-end a.navbar-item.is-active,
+.navbar .navbar-end a.navbar-item:focus,
+.navbar .navbar-end a.navbar-item:focus-within,
+.navbar .navbar-end a.navbar-item:hover {
+  background-color: transparent;
+  border: 2px solid var(--white-color);
+  transition: all 0.3s ease-in-out;
+}
