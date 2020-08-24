@@ -131,3 +131,8 @@ header .subtitle {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09), 0 6px 6px rgba(0, 0, 0, 0.03);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+
+#section-about .container.is-full {
+  padding-left: 0;
+  padding-right: 0;
+}
