@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
 
 :root {
-  --main-color: rgba(4, 26, 52, 1);
-  --second-color: rgba(39, 174, 243, 1);
-  --white-color: rgba(255, 255, 255, 1);
+  --main-color: #041a34;
+  --second-color: #27aef3;
+  --white-color: #ffffff;
   --font-regular: 400;
   --font-bold: 600;
   --font-black: 700;
@@ -81,4 +81,32 @@ header {
   background-color: transparent;
   border: 2px solid var(--white-color);
   transition: all 0.3s ease-in-out;
+}
+
+.hero.is-light {
+  background-color: #f6f6f6;
+}
+
+#section-offer .card {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+#section-offer .card .title {
+  color: #ca0034;
+  font-size: 1.5rem;
+  font-weight: var(--font-bold);
+  line-height: 2.5rem;
+  letter-spacing: -1px;
+}
+
+#section-offer .card .subtitle {
+  color: #5e6372;
+  font-size: 0.9rem;
+  font-weight: var(--font-regular);
+  line-height: 1.2rem;
+}
+
+.is-horizontal-center {
+  justify-content: center;
 }
