@@ -7,6 +7,7 @@
   --font-regular: 400;
   --font-bold: 600;
   --font-black: 700;
+  --gradietn: linear-gradient(20deg, var(--main-color), var(--second-color));
 }
 
 *,
@@ -109,4 +110,14 @@ header {
 
 .is-horizontal-center {
   justify-content: center;
+}
+
+.btn-special {
+  color: var(--second-color) !important;
+  font-size: 1.5rem;
+  border-radius: 3rem;
+  padding: 1rem 4rem;
+  font-weight: var(--font-black);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09), 0 6px 6px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
