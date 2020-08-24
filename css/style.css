@@ -88,6 +88,16 @@ header {
   background-color: #f6f6f6;
 }
 
+header .title {
+  font-weight: var(--font-black);
+  font-size: 4rem !important;
+}
+
+header .subtitle {
+  margin: 1rem 10% !important;
+  font-size: 1rem;
+}
+
 #section-offer .card {
   box-shadow: none;
   background-color: transparent;
