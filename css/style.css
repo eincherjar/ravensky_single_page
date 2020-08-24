@@ -132,7 +132,15 @@ header .subtitle {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-#section-about .container.is-full {
+.container.is-full {
   padding-left: 0;
   padding-right: 0;
+}
+
+#section-gellery-video {
+  background-color: #f6f6f6;
+}
+
+#section-gellery-video .btn-special {
+  font-size: 1rem !important;
 }
